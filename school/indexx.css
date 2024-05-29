@@ -17,18 +17,17 @@ header {
 header h1 {
     margin: 0;
 }
-header h1 img {
-    width: 50px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-}
 
+header h1 img {
+    width: 50px;
+    height: auto;
+}
 
 /* Navigation Icons */
 nav ul li a img {
-    width: 20px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 20px;
+    height: auto;
 }
-
 
 nav ul {
     list-style: none;
@@ -66,4 +65,25 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+.activity-card {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.activity-card h3 {
+    margin-top: 10px;
+}
+
+.activity-card p {
+    margin-bottom: 10px;
 }
